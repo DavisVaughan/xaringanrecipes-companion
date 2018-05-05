@@ -1,0 +1,46 @@
+---
+title: "Presentation Ninja"
+subtitle: "⚔<br/>with xaringan"
+author: "Yihui Xie"
+date: "2016/12/12"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+Here is some R code
+
+```{r}
+x <- 1
+x
+```
+
+---
+
+Here is some R code, but with only output
+
+```{r, echo=FALSE}
+x <- 1
+x
+```
+
+---
+
+Here is some R code, and only the code is shown
+
+```{r, eval=FALSE}
+x <- 1
+x
+```
+
+---
+
+We can use this to generate images programatically
+
+```{r, echo=FALSE}
+plot(cars)
+```
